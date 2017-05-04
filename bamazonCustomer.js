@@ -111,11 +111,13 @@ var start = function() {
 
             } else {
                 console.log("Sorry, there are ".bold + res[0].StockQuantity + " units in stock for this product".bold);
-                console.log("\n-------------------\n");
+                console.log("\n-----------------------------------------\n");
 
                 start();
 
             }
+
+            
 
         })
 
